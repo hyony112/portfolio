@@ -198,9 +198,6 @@
         flex-direction: column;
     }
     .feature-content.flex-order > div:first-child {
-        order: 2;
-    }
-    .feature-content.flex-order > div:last-child {
         order: 1;
     }
 

@@ -182,6 +182,7 @@ header.active {
     color: #222;
 }
 
+/* Mouse Wheel */
 .mouse {
     border: 2px solid #ccc;
     position: absolute;
@@ -280,6 +281,9 @@ header.active {
 .access-left {
     padding-right: 50px;
     padding-top: 80px;
+}
+.access-left h2 {
+    font-size: 34px;
 }
 .access-right {
     text-align: center;

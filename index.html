@@ -14,6 +14,8 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <!-- TypeIt -->
     <script src="js/typeit.min.js"></script>
+    <!-- Wow Scroll Reveal Animation -->
+    <script src="js/wow.min.js"></script>
     <!-- Custom CSS & JS -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
@@ -26,16 +28,16 @@
         <header>
             <div class="header-inner">
                 <div class="logo">
-                    <a href="#none"><img src="images/logo.png" ></a>
+                    <a href="#"><img src="images/logo.png" ></a>
                 </div>
                 <div class="gnb">
-                    <a href="#none">CEO 인사말</a>
-                    <a href="#none">서비스 특징</a>
-                    <a href="#none">자주 묻는 질문들</a>
-                    <a href="#none">경영비전</a>
-                    <a href="#none">사용자 리뷰</a>
-                    <a href="#none">앱 사용자 가이드</a>
-                    <a href="#none">최신소식</a>
+                    <a href="#feature1">CEO 인사말</a>
+                    <a href="#feature2">서비스 특징</a>
+                    <a href="#feature3">경영비전</a>
+                    <a href="#feature4">자주 묻는 질문들</a>
+                    <a href="#feature5">사용자 리뷰</a>
+                    <a href="#feature6">앱 사용자 가이드</a>
+                    <a href="#feature7">최신소식</a>
                 </div>
             </div>
         </header>
@@ -65,10 +67,10 @@
             </div>
         </section>
         <!-- Section : ceo-access -->
-        <section class="ceo-access">
+        <section id="feature1" class="ceo-access">
             <div class="ceo-inner">
                 <div class="ceo-content">
-                    <div class="ceo-left">
+                    <div class="ceo-left ltr wow">
                         <img src="images/quotation-mark.svg" alt="">
                         <h3>3 Pre-made Solutions for your Startup Business</h3>
                         <p>
@@ -78,7 +80,7 @@
                             앤드류 - 스타트업 메이트 대표이사
                         </span>
                     </div>
-                    <div class="ceo-right">
+                    <div class="ceo-right rtl wow">
                         <div class="ceo-msg">
                             <h3>Application Downloads<big>30,000+</big></h3>
                             <p>
@@ -93,7 +95,7 @@
             </div>
             <div class="access-inner">
                 <div class="access-content">
-                    <div class="access-left">
+                    <div class="access-left ltr wow">
                         <h2>언제나 어디서나 즐겁고 편리한 액세스 스타트업 CEO들의 커뮤니티</h2>
                         <p>
                             언제나 어디서나. 즐겁고 편리한 액세스가 가능합니다.
@@ -106,7 +108,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="access-right">
+                    <div class="access-right rtl wow">
                         <img src="images/access-mockup.png">
                     </div>
                 </div>
@@ -158,7 +160,7 @@
         </section>
  
         <!-- Section : feature -->
-        <section class="feature">
+        <section id="feature2" class="feature">
             <div class="feature-inner">
                 <div class="headline-share">
                     <h1>스타트업 CEO 커뮤니티</h1>
@@ -167,10 +169,10 @@
                     </p>
                 </div>
                 <div class="feature-content">
-                    <div class="feature-mockup">
+                    <div class="feature-mockup ltr wow">
                         <img src="images/feature-mockup-01.png">
                     </div>
-                    <div class="feature-about">
+                    <div class="feature-about rtl wow">
                         <img src="images/icon-num-01.png">
                         <h2>스타트업 메이트 CEO 평생 회원 자격</h2>
                         <p>
@@ -179,22 +181,22 @@
                     </div>
                 </div>
                 <div class="feature-content">
-                    <div class="feature-about">
+                    <div class="feature-about ltr wow">
                         <img src="images/icon-num-02.png">
                         <h2>CEO 오프라인 모임 참석(월 2회)</h2>
                         <p>
                             스타트 업메이트 CEO 회원들만의 오프라인 모임을 월 2회 진행합니다. 온라인에서 부족한 상호작용을 위해 오프라인 모임을 만들고 해당 오프라인 모임에서 다야한 업종의 CEO들과 고민을 나누는 자리가 됩니다.
                         </p>
                     </div>
-                    <div class="feature-mockup">
+                    <div class="feature-mockup rtl wow">
                         <img src="images/feature-mockup-02.png">
                     </div>
                 </div>
                 <div class="feature-content">
-                    <div class="feature-mockup">
+                    <div class="feature-mockup ltr wow">
                         <img src="images/feature-mockup-03.png">
                     </div>
-                    <div class="feature-about">
+                    <div class="feature-about rtl wow">
                         <img src="images/icon-num-03.png">
                         <h2>조직관리를 위한 오프라인 멘토링</h2>
                         <p>
@@ -205,7 +207,7 @@
             </div>
         </section>
         <!-- Section : vision -->
-        <section class="vision">
+        <section id="feature3" class="vision">
             <div class="vision-inner">
                 <div class="vision-content">
                     <div class="vision-item-desc">
@@ -246,14 +248,14 @@
             </div>
         </section>
         <!-- Section : faq -->
-        <section class="faq">
+        <section id="feature4" class="faq">
             <div class="faq-inner">
                 <div class="headline-share">
                     <h1>서비스 이용이 궁금하신가요?</h1>
                     <p>스타트업메이트가 도와드리겠습니다.</p>
                 </div>
                 <div class="faq-content">
-                    <div class="faq-accordion">
+                    <div class="faq-accordion ltr wow">
                         <div class="faq-item active">
                             <div class="faq-title">
                                 스타트업 메이트 회원가입이 필수인가요?
@@ -311,7 +313,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="awards-content">
+                    <div class="awards-content rtl wow">
                         <div class="award-image">
                             <img src="images/faq-01.png">
                         </div>
@@ -325,7 +327,7 @@
             </div>
         </section>
         <!-- Section : review -->
-        <section class="review">
+        <section id="feature5" class="review">
             <div class="review-inner">
                 <div class="headline-share">
                     <h1>CEO들의 생생 리뷰</h1>
@@ -367,25 +369,25 @@
             </div>
         </section>
         <!-- Section : focus -->
-        <section class="focus">
+        <section id="feature6" class="focus">
             <div class="focus-inner">
                 <div class="headline-share">
                     <h1>스타트업 비즈니스 커스터마이징</h1>
                 </div>
                 <div class="focus-content">
-                    <div class="focus-item">
+                    <div class="focus-item utd wow" data-wow-delay="0">
                         <img src="images/focus-icon-01.png">
                         <h3>CEO 온라인 컨텐츠 제공</h3>
                         <i class="xi-checkbox-blank"></i>
                         <p>경영, 트렌드, 리더십, 인문 분야 등 어려운 경영 전략을 키워줄 온라인 콘테츠를 제공합니다.</p>
                     </div>
-                    <div class="focus-item">
+                    <div class="focus-item utd wow" data-wow-delay="0.25s">
                         <img src="images/focus-icon-02.png">
                         <h3>CEO를 위한 경영 멘토링</h3>
                         <i class="xi-checkbox-blank"></i>
                         <p>카테고리 별로 혹은 모임 검색을 통해 원하는 모임을 쉽고 빠르게 찾을 수 있습니다.</p>
                     </div>
-                    <div class="focus-item">
+                    <div class="focus-item utd wow" data-wow-delay="0.5s">
                         <img src="images/focus-icon-03.png">
                         <h3>CEO 오프라인 모임</h3>
                         <i class="xi-checkbox-blank"></i>
@@ -398,20 +400,20 @@
         <section class="guide">
             <div class="guide-inner">
                 <div class="guide-content">
-                    <div class="guide-slider">
+                    <div class="guide-slider ltr wow">
                         <div class="slider-moukup">
-                            <img src="images/slder-mockup.png" class="round-mockup">
+                            <img class="round-mockup" src="images/slder-mockup.png">
                             <div class="mockup-slider">
-                                <img src="" alt="">
-                                <img src="" alt="">
-                                <img src="" alt="">
-                                <img src="" alt="">
-                                <img src="" alt="">
-                                <img src="" alt="">
+                                <img src="images/app-screen-01.png">
+                                <img src="images/app-screen-02.png">
+                                <img src="images/app-screen-03.png">
+                                <img src="images/app-screen-04.png">
+                                <img src="images/app-screen-05.png">
+                                <img src="images/app-screen-06.png">
                             </div>
                         </div>
                     </div>
-                    <div class="guide-video">
+                    <div class="guide-video rtl wow">
                         <h1>
                             customize<br>
                             all your startup business<br> 
@@ -423,16 +425,128 @@
                         </h2>
                         <div class="video-frame">
                             <img src="images/guide-video.jpg">
-                            <i class="fa fa-play-circle"></i>
+                            <i class="fa fa-play-circle open-modal"></i>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         <!-- Section : news -->
-        <section class="news"></section>
+        <section id="feature7" class="news">
+            <div class="news-inner">
+                <div class="headline-share">
+                    <h1>스타트메이트 최신 소식</h1>
+                </div>
+                <div class="news-content">
+                    <div class="news-left ltr wow">
+                        <div class="news-big" onclick="location.href='#none'">
+                            <img src="images/news-thum-big.jpg">
+                            <div class="news-headline">
+                                <h2>Merry Christmas 2022</h2>
+                                <p>
+                                    스타트업 CEO 여러분~ 지금은 사회적으로 힘든 시기를 보내고 있지만 우리는 이겨낼수 있습니다.
+                                    스타트업메이트가 여러분을 응원합니다.
+                                    <small class="date">Dec 24, 2020</small>
+                                </p>
+                                <a href="" class="btn-view">자세히 보기</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news-right rtl wow">
+                        <div class="news-items">
+                            <div class="news-thum" onclick="location.href='#none'">
+                                <div class="news-photo">
+                                    <img src="images/news-thum-small-01.jpg">
+                                    <span class="badge new">new issue</span>
+                                </div>
+                                <p>
+                                    스타트업 메이트 드디어 사무실이 확장 이전했습니다.
+                                    <small class="date">Dec 11, 2022</small>
+                                </p>
+                            </div>
+                            <div class="news-thum" onclick="location.href='#none'">
+                                <div class="news-photo">
+                                    <img src="images/news-thum-small-02.jpg">
+                                    <span class="badge hot">new issue</span>
+                                </div>
+                                <p>
+                                    예상 고객의 요구사항 분석을 미리 알아보는 오프라인 CEO 프로젝트
+                                    <small class="date">Oct 21, 2022</small>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="news-items">
+                            <div class="news-thum" onclick="location.href='#none'">
+                                <div class="news-photo">
+                                    <img src="images/news-thum-small-03.jpg">
+                                    <span class="badge new">new issue</span>
+                                </div>
+                                <p>
+                                    스타트업을 위한 앱 개발 유료서비스 플랫폼 서비스 오픈 
+                                    <small class="date">Nov 12, 2022</small>
+                                </p>
+                            </div>
+                            <div class="news-thum" onclick="location.href='#none'">
+                                <div class="news-photo">
+                                    <img src="images/news-thum-small-04.jpg">
+                                    <span class="badge hot">new issue</span>
+                                </div>
+                                <p>
+                                    스타트업 CEO를 위한 사업 기획서 작성과 아이디어 도출 방법
+                                    <small class="date">Oct 16, 2022</small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="#none" class="btn-readmore">read more news</a>
+            </div>
+        </section>
         <!-- Footer -->
-        <footer></footer>
+        <footer>
+            <div class="footer-inner">
+                <div class="footer-content">
+                    <div class="footer-logo">
+                        <img src="images/logo.png">
+                    </div>
+                    <div class="copyright">
+                        <div class="policy-sns">
+                            <div class="policy">
+                                <span>
+                                    <a href="#none">개인정보취급방침</a> <em>|</em>
+                                    <a href="#none">이용약관</a>
+                                </span>
+                                <span>Copyright STARTUP MATE. All right reserved.</span>
+                            </div>
+                            <div class="sns">
+                                <a href="#none"><i class="xi-facebook"></i></a>
+                                <a href="#none"><i class="xi-instagram"></i></a>
+                                <a href="#none"><i class="xi-kakaostory"></i></a>
+                                <a href="#none"><i class="xi-naver"></i></a>
+                                <a href="#none"><i class="xi-youtube-play"></i></a>
+                            </div>
+                        </div>
+                        <div class="address">
+                            <span>(주)스타트업메이트 | 대표자 : 코딩웍스 | 사업자번호 : 123-5-67890 사업자 정보 확인 | 개인정보보호책임자 : 앤드류</span>
+                            <span>주소 : 서울시 서대문구 연희동 123-14 스타트업메이트 빌딩 2층 ㅣ 이메일: info@startupmate.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Go to top -->
+    <a href="#" class="btn-top"><i class="xi-angle-up-thin"></i></a>
+
+    <!-- Video Modal -->
+    <div class="video-modal">
+        <i class="xi-close-thin close-modal"></i>
+        <div class="video-content">
+            
+            <iframe src="https://www.youtube.com/embed/krdoph84xOk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        </div>
     </div>
 
 </body>
